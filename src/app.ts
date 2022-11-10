@@ -1,12 +1,12 @@
 import { LitElement, css, html } from "lit";
 import { customElement } from "lit/decorators.js";
 
-import "./components/rich-text-editor";
+import "./components/rte-editor";
 
 @customElement("app-element")
 export class AppElement extends LitElement {
   render() {
-    return html`<rich-text-editor></rich-text-editor>`;
+    return html`<rte-editor></rte-editor>`;
   }
   static styles = css`
     :host {

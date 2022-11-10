@@ -16,10 +16,11 @@ import CodeBlockLowlight from "@tiptap/extension-code-block-lowlight";
 import Link from "@tiptap/extension-link";
 import Image from "@tiptap/extension-image";
 import TextAlign from "@tiptap/extension-text-align";
-import { Syntax, Icons } from "../global-styles.js";
+import { Syntax } from "../global-styles.js";
 import "./blog-list";
+import BlogList from "./blog-list.node";
 
-@customElement("rich-text-editor")
+@customElement("rte-editor")
 export class RichTextEditorElement extends LitElement {
   @query("#rte")
   rte!: HTMLElement;
@@ -39,22 +40,8 @@ export class RichTextEditorElement extends LitElement {
   @state()
   showJSON = false;
 
-  blogList = Image.extend({
-    name: "blogList",
-    parseHTML() {
-      return [
-        {
-          tag: "blog-list",
-        },
-      ];
-    },
-    renderHTML({ HTMLAttributes }) {
-      return ["blog-list", HTMLAttributes];
-    },
-  });
-
   extensions = [
-    this.blogList,
+    BlogList,
     StarterKit.configure({
       codeBlock: false,
     }),
@@ -220,6 +207,6 @@ export class RichTextEditorElement extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "rich-tex": RichTextEditorElement;
+    "rte-editor": RichTextEditorElement;
   }
 }
