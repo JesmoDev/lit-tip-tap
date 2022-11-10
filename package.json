@@ -1,0 +1,34 @@
+{
+  "name": "lit-tip-tap",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.0.0-beta.202",
+    "@tiptap/extension-code-block-lowlight": "^2.0.0-beta.202",
+    "@tiptap/extension-image": "^2.0.0-beta.202",
+    "@tiptap/extension-link": "^2.0.0-beta.202",
+    "@tiptap/extension-text-align": "^2.0.0-beta.202",
+    "@tiptap/extension-underline": "^2.0.0-beta.202",
+    "@tiptap/starter-kit": "^2.0.0-beta.202",
+    "lit": "^2.4.0",
+    "lowlight": "^2.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
