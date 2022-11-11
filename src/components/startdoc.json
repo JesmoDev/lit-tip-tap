@@ -1,368 +1,370 @@
 {
-  "type": "doc",
-  "content": [
-    {
-      "type": "heading",
-      "attrs": {
-        "textAlign": "center",
-        "level": 1
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "This is a nice blog post"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "center"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "By me"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      }
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat purus ut purus consectetur mollis. Pellentesque bibendum nunc ornare dolor tincidunt, ac placerat elit lobortis. Sed hendrerit, magna sed tincidunt efficitur, ipsum elit pretium eros, a accumsan leo tortor venenatis libero. "
-        }
-      ]
-    },
-    {
-      "type": "blockquote",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": "justify"
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "There's so many lonely emojis man"
-            },
-            {
-              "type": "hardBreak"
-            },
-            {
-              "type": "text",
-              "text": "- Kanye West"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Phasellus venenatis, felis at interdum ultrices, ante nisl rutrum lorem, et aliquam augue dolor sit amet est. Cras vitae nisi urna. Vestibulum vestibulum felis sed velit sagittis, eu luctus ipsum sollicitudin. Suspendisse bibendum convallis velit, sed auctor arcu elementum id. "
-        }
-      ]
-    },
-    {
-      "type": "blogList",
-      "content": []
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Curabitur gravida mi in est rutrum molestie. Curabitur commodo mollis lorem sed gravida. Praesent vitae aliquet felis. Maecenas nisl magna, euismod eu sem in, aliquam convallis quam. Morbi vestibulum mauris ut metus egestas, nec porttitor augue sagittis. Pellentesque luctus feugiat arcu, a venenatis orci ultricies eu."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "textAlign": "justify",
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Somewhat important headline"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Maecenas lacinia tortor sit amet nisl varius fringilla. In hac habitasse platea dictumst. Donec rutrum venenatis turpis, sit amet luctus lorem mollis vitae. Maecenas eget augue id massa maximus scelerisque ut nec est. In luctus nulla orci. Donec consequat, tellus eu convallis interdum, purus dui sollicitudin tortor, et porta elit ante vel erat. Etiam elementum eu lectus vitae lobortis. Etiam consequat urna sit amet ante sollicitudin ullamcorper. Ut nulla nisl, porta a vulputate at, accumsan eget erat."
-        }
-      ]
-    },
-    {
-      "type": "image",
-      "attrs": {
-        "src": "https://i.picsum.photos/id/876/800/600.jpg?hmac=Ze2if2C0jkxSE2IR29vE_gm_6pEe7b4x8QOZ71WIuNc",
-        "alt": null,
-        "title": null
-      }
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      }
-    },
-    {
-      "type": "codeBlock",
-      "attrs": {
-        "language": "js"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "for (var i=1; i <= 20; i++)\n{\n  if (i % 15 == 0)\n    console.log(\"FizzBuzz\");\n  else if (i % 3 == 0)\n    console.log(\"Fizz\");\n  else if (i % 5 == 0)\n    console.log(\"Buzz\");\n  else\n    console.log(i);\n}"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      }
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Aenean convallis urna nec massa posuere blandit. Aenean elementum, erat sit amet dapibus iaculis, lorem nisi elementum tellus, sed laoreet dolor felis nec magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et tempor elit. Maecenas maximus purus ligula, eu imperdiet turpis tristique et. Mauris eget pellentesque leo. Nulla pretium quis mauris vitae pretium. Etiam egestas, justo et dapibus tincidunt, dolor tellus posuere arcu, at efficitur ante nulla eget magna. Quisque laoreet leo et sapien tristique tristique. Integer molestie metus quis nisi varius, a vestibulum erat vehicula."
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      }
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "textAlign": "justify",
-        "level": 3
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Hello, I'm a H3"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Vivamus facilisis risus ut odio sodales, vel dapibus metus porta. Nullam lacinia non magna ut vestibulum. Praesent euismod arcu sed sapien sollicitudin, nec egestas tortor imperdiet. Nulla sit amet elementum erat. Vestibulum imperdiet lacus non nisi accumsan, in pulvinar dolor dapibus. Phasellus tempor tellus et leo tincidunt dignissim. Aliquam condimentum diam vitae tellus cursus ornare ut vitae risus. Ut tempor enim porttitor, finibus erat nec, porttitor odio. Etiam ac mattis leo. Phasellus sed mauris ut purus convallis commodo ac eu ipsum. Vestibulum et justo in erat ultrices volutpat. Ut vel purus ex. Nunc aliquam gravida odio at tincidunt. Integer fermentum vitae nulla ut blandit. Ut eget tempus mi, a mattis ligula. Nulla vel sapien rhoncus, maximus ex eu, pharetra nibh."
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      }
-    },
-    {
-      "type": "bulletList",
-      "content": [
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": "justify"
-              },
-              "content": [
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "strike"
-                    }
-                  ],
-                  "text": "Food"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": "justify"
-              },
-              "content": [
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "strike"
-                    }
-                  ],
-                  "text": "Drinks"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": "justify"
-              },
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Snacks"
-                }
-              ]
-            },
-            {
-              "type": "bulletList",
-              "content": [
-                {
-                  "type": "listItem",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "attrs": {
-                        "textAlign": "justify"
-                      },
-                      "content": [
-                        {
-                          "type": "text",
-                          "text": "chips"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "listItem",
-                  "content": [
-                    {
-                      "type": "paragraph",
-                      "attrs": {
-                        "textAlign": "justify"
-                      },
-                      "content": [
-                        {
-                          "type": "text",
-                          "marks": [
-                            {
-                              "type": "strike"
-                            }
-                          ],
-                          "text": "chocolate"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": "justify"
-              },
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Cups"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "listItem",
-          "content": [
-            {
-              "type": "paragraph",
-              "attrs": {
-                "textAlign": "justify"
-              },
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Plates"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Ut dapibus velit a tellus suscipit blandit. Ut maximus felis dolor, eu dictum nibh scelerisque et. Nulla facilisi. Vivamus suscipit non eros in consequat. Morbi sollicitudin eget ipsum sed porttitor. In sagittis viverra nibh at lacinia. Aenean ultricies malesuada mi in porttitor. In hac habitasse platea dictumst. Donec posuere orci non lacus posuere porttitor. Nam sed leo nulla. Aliquam venenatis tortor tortor, ac elementum magna varius nec."
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "justify"
-      }
-    }
-  ]
+	"type": "doc",
+	"content": [
+		{
+			"type": "heading",
+			"attrs": {
+				"textAlign": "center",
+				"level": 1
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "This is a nice blog post"
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "center"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "By me"
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			}
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat purus ut purus consectetur mollis. Pellentesque bibendum nunc ornare dolor tincidunt, ac placerat elit lobortis. Sed hendrerit, magna sed tincidunt efficitur, ipsum elit pretium eros, a accumsan leo tortor venenatis libero. "
+				}
+			]
+		},
+		{
+			"type": "blockquote",
+			"content": [
+				{
+					"type": "paragraph",
+					"attrs": {
+						"textAlign": "justify"
+					},
+					"content": [
+						{
+							"type": "text",
+							"text": "There's so many lonely emojis man"
+						},
+						{
+							"type": "hardBreak"
+						},
+						{
+							"type": "text",
+							"text": "- Kanye West"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Phasellus venenatis, felis at interdum ultrices, ante nisl rutrum lorem, et aliquam augue dolor sit amet est. Cras vitae nisi urna. Vestibulum vestibulum felis sed velit sagittis, eu luctus ipsum sollicitudin. Suspendisse bibendum convallis velit, sed auctor arcu elementum id. "
+				}
+			]
+		},
+		{
+			"type": "blogList",
+			"attrs": {
+				"tag": "blog-list"
+			}
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Curabitur gravida mi in est rutrum molestie. Curabitur commodo mollis lorem sed gravida. Praesent vitae aliquet felis. Maecenas nisl magna, euismod eu sem in, aliquam convallis quam. Morbi vestibulum mauris ut metus egestas, nec porttitor augue sagittis. Pellentesque luctus feugiat arcu, a venenatis orci ultricies eu."
+				}
+			]
+		},
+		{
+			"type": "heading",
+			"attrs": {
+				"textAlign": "justify",
+				"level": 2
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Somewhat important headline"
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Maecenas lacinia tortor sit amet nisl varius fringilla. In hac habitasse platea dictumst. Donec rutrum venenatis turpis, sit amet luctus lorem mollis vitae. Maecenas eget augue id massa maximus scelerisque ut nec est. In luctus nulla orci. Donec consequat, tellus eu convallis interdum, purus dui sollicitudin tortor, et porta elit ante vel erat. Etiam elementum eu lectus vitae lobortis. Etiam consequat urna sit amet ante sollicitudin ullamcorper. Ut nulla nisl, porta a vulputate at, accumsan eget erat."
+				}
+			]
+		},
+		{
+			"type": "image",
+			"attrs": {
+				"src": "https://i.picsum.photos/id/876/800/600.jpg?hmac=Ze2if2C0jkxSE2IR29vE_gm_6pEe7b4x8QOZ71WIuNc",
+				"alt": null,
+				"title": null
+			}
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			}
+		},
+		{
+			"type": "codeBlock",
+			"attrs": {
+				"language": "js"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "for (var i=1; i <= 20; i++)\n{\n  if (i % 15 == 0)\n    console.log(\"FizzBuzz\");\n  else if (i % 3 == 0)\n    console.log(\"Fizz\");\n  else if (i % 5 == 0)\n    console.log(\"Buzz\");\n  else\n    console.log(i);\n}"
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			}
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Aenean convallis urna nec massa posuere blandit. Aenean elementum, erat sit amet dapibus iaculis, lorem nisi elementum tellus, sed laoreet dolor felis nec magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et tempor elit. Maecenas maximus purus ligula, eu imperdiet turpis tristique et. Mauris eget pellentesque leo. Nulla pretium quis mauris vitae pretium. Etiam egestas, justo et dapibus tincidunt, dolor tellus posuere arcu, at efficitur ante nulla eget magna. Quisque laoreet leo et sapien tristique tristique. Integer molestie metus quis nisi varius, a vestibulum erat vehicula."
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			}
+		},
+		{
+			"type": "heading",
+			"attrs": {
+				"textAlign": "justify",
+				"level": 3
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Hello, I'm a H3"
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Vivamus facilisis risus ut odio sodales, vel dapibus metus porta. Nullam lacinia non magna ut vestibulum. Praesent euismod arcu sed sapien sollicitudin, nec egestas tortor imperdiet. Nulla sit amet elementum erat. Vestibulum imperdiet lacus non nisi accumsan, in pulvinar dolor dapibus. Phasellus tempor tellus et leo tincidunt dignissim. Aliquam condimentum diam vitae tellus cursus ornare ut vitae risus. Ut tempor enim porttitor, finibus erat nec, porttitor odio. Etiam ac mattis leo. Phasellus sed mauris ut purus convallis commodo ac eu ipsum. Vestibulum et justo in erat ultrices volutpat. Ut vel purus ex. Nunc aliquam gravida odio at tincidunt. Integer fermentum vitae nulla ut blandit. Ut eget tempus mi, a mattis ligula. Nulla vel sapien rhoncus, maximus ex eu, pharetra nibh."
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			}
+		},
+		{
+			"type": "bulletList",
+			"content": [
+				{
+					"type": "listItem",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"textAlign": "justify"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "strike"
+										}
+									],
+									"text": "Food"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"textAlign": "justify"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "strike"
+										}
+									],
+									"text": "Drinks"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"textAlign": "justify"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Snacks"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"textAlign": "justify"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "chips"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"textAlign": "justify"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "strike"
+														}
+													],
+													"text": "chocolate"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"textAlign": "justify"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Cups"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"textAlign": "justify"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Plates"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			},
+			"content": [
+				{
+					"type": "text",
+					"text": "Ut dapibus velit a tellus suscipit blandit. Ut maximus felis dolor, eu dictum nibh scelerisque et. Nulla facilisi. Vivamus suscipit non eros in consequat. Morbi sollicitudin eget ipsum sed porttitor. In sagittis viverra nibh at lacinia. Aenean ultricies malesuada mi in porttitor. In hac habitasse platea dictumst. Donec posuere orci non lacus posuere porttitor. Nam sed leo nulla. Aliquam venenatis tortor tortor, ac elementum magna varius nec."
+				}
+			]
+		},
+		{
+			"type": "paragraph",
+			"attrs": {
+				"textAlign": "justify"
+			}
+		}
+	]
 }

@@ -1,15 +1,42 @@
-import Image from '@tiptap/extension-image';
+import { Content, JSONContent, mergeAttributes, Node, nodeInputRule } from '@tiptap/core';
 
-export default Image.extend({
+declare module '@tiptap/core' {
+	interface Commands<ReturnType> {
+		blogList: {
+			addCustom: (tag: string) => ReturnType;
+		};
+	}
+}
+
+export default Node.create({
 	name: 'blogList',
-	parseHTML() {
-		return [
-			{
-				tag: 'blog-list',
-			},
-		];
-	},
+	draggable: true,
+
 	renderHTML({ HTMLAttributes }) {
-		return ['blog-list', HTMLAttributes];
+		console.log('renderHTML', HTMLAttributes);
+
+		return [HTMLAttributes.tag, HTMLAttributes];
+	},
+	addAttributes() {
+		return {
+			tag: {
+				default: '',
+			},
+		};
+	},
+	group: 'block',
+	addCommands() {
+		return {
+			addCustom:
+				(tag) =>
+				({ commands }) => {
+					return commands.insertContent({
+						type: this.name,
+						attrs: {
+							tag: tag,
+						},
+					});
+				},
+		};
 	},
 });
