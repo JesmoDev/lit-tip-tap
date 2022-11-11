@@ -17,7 +17,7 @@ import htmlStyle from 'highlight.js/lib/languages/xml';
 
 import { Syntax } from '../global-styles.js';
 import { RTEStyles } from './rte-editor.styles.js';
-import BlogList from './blog-list.node';
+import BlogList from './custom.node';
 import startDocJson from './startdoc.json';
 import './blog-list';
 import './rte-fixed-menu';

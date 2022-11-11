@@ -202,7 +202,10 @@ export class RTEFixedMenuElement extends LitElement {
 					fill="currentColor" />
 			</svg>`,
 			command: () => {
-				this.editor?.chain().focus().addCustom('blog-list').run();
+				const tag = prompt('Enter the tag');
+				if (tag) {
+					this.editor?.chain().focus().addCustomNode(tag).run();
+				}
 			},
 		},
 	];

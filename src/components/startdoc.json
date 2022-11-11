@@ -81,7 +81,7 @@
 			]
 		},
 		{
-			"type": "blogList",
+			"type": "customNode",
 			"attrs": {
 				"tag": "blog-list"
 			}

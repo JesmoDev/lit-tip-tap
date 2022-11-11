@@ -2,19 +2,17 @@ import { Content, JSONContent, mergeAttributes, Node, nodeInputRule } from '@tip
 
 declare module '@tiptap/core' {
 	interface Commands<ReturnType> {
-		blogList: {
-			addCustom: (tag: string) => ReturnType;
+		customNode: {
+			addCustomNode: (tag: string) => ReturnType;
 		};
 	}
 }
 
 export default Node.create({
-	name: 'blogList',
+	name: 'customNode',
 	draggable: true,
 
 	renderHTML({ HTMLAttributes }) {
-		console.log('renderHTML', HTMLAttributes);
-
 		return [HTMLAttributes.tag, HTMLAttributes];
 	},
 	addAttributes() {
@@ -27,7 +25,7 @@ export default Node.create({
 	group: 'block',
 	addCommands() {
 		return {
-			addCustom:
+			addCustomNode:
 				(tag) =>
 				({ commands }) => {
 					return commands.insertContent({
