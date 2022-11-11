@@ -12,7 +12,6 @@
 	--color-text: rgb(32, 32, 32);
 	--color-primary: rgb(44, 111, 255);
 	--color-primary-contrast: rgb(255, 255, 255);
-	--color-hover: rgb(234, 241, 255);
 
 	--shadow-0: 0 0 5px rgba(0, 0, 0, 0);
 	--shadow-1: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,13 +19,12 @@
 }
 
 :root[data-theme='dark'] {
-	--color-background: #1f1f1f;
-	--color-surface: rgb(39, 39, 39);
-	--color-border: #3a3a3a;
-	--color-text: rgb(211, 211, 211);
-	--color-primary: rgb(75, 126, 238);
-	--color-primary-contrast: rgb(255, 255, 255);
-	--color-hover: rgb(134, 134, 134);
+	--color-background: #32333e;
+	--color-surface: #393944;
+	--color-border: #41414c;
+	--color-text: #eeeeef;
+	--color-primary: #5ba3f5;
+	--color-primary-contrast: #32333e;
 }
 
 /* ------- CSS RESET BELOW ------- */

@@ -10,6 +10,10 @@ import Image from '@tiptap/extension-image';
 import TextAlign from '@tiptap/extension-text-align';
 
 import { lowlight } from 'lowlight/lib/core';
+import cssStyle from 'highlight.js/lib/languages/css';
+import js from 'highlight.js/lib/languages/javascript';
+import ts from 'highlight.js/lib/languages/typescript';
+import htmlStyle from 'highlight.js/lib/languages/xml';
 
 import { Syntax } from '../global-styles.js';
 import { RTEStyles } from './rte-editor.styles.js';
@@ -45,6 +49,11 @@ export class RichTextEditorElement extends LitElement {
 
 	connectedCallback(): void {
 		super.connectedCallback();
+
+		lowlight.registerLanguage('html', htmlStyle);
+		lowlight.registerLanguage('css', cssStyle);
+		lowlight.registerLanguage('js', js);
+		lowlight.registerLanguage('ts', ts);
 
 		requestAnimationFrame(() => {
 			this.editor = new Editor({
