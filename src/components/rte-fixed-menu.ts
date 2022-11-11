@@ -1,26 +1,5 @@
 import { LitElement, css, html } from 'lit';
-import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { customElement, property, state } from 'lit/decorators.js';
-import Bold from '../assets/icons/bold.svg';
-import AlignLeft from '../assets/icons/align-left.svg';
-import AlignRight from '../assets/icons/align-right.svg';
-import AlignCenter from '../assets/icons/align-center.svg';
-import AlignJustify from '../assets/icons/align-justify.svg';
-import Italic from '../assets/icons/italic.svg';
-import Underline from '../assets/icons/underline.svg';
-import Strikethrough from '../assets/icons/strikethrough.svg';
-import H1 from '../assets/icons/h-1.svg';
-import H2 from '../assets/icons/h-2.svg';
-import H3 from '../assets/icons/h-3.svg';
-import H4 from '../assets/icons/h-4.svg';
-import H5 from '../assets/icons/h-5.svg';
-import Paragraph from '../assets/icons/paragraph.svg';
-import Blockquote from '../assets/icons/double-quotes-l.svg';
-import Code from '../assets/icons/code-view.svg';
-import BulletList from '../assets/icons/list-unordered.svg';
-import OrderedList from '../assets/icons/list-ordered.svg';
-import HorizontalRule from '../assets/icons/separator.svg';
-import Image from '../assets/icons/image-fill.svg';
 import { Editor } from '@tiptap/core';
 
 @customElement('rte-fixed-menu')
@@ -220,8 +199,6 @@ export class RTEFixedMenuElement extends LitElement {
 	editor?: Editor;
 
 	render() {
-		console.log('TEST', import('../assets/icons/align-left.svg'));
-
 		return html`
 			${this.actions.map(
 				(action) => html` <button @click=${action.command} title=${action.name}>${action.icon}</button> `
