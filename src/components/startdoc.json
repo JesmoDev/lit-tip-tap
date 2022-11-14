@@ -2,29 +2,10 @@
 	"type": "doc",
 	"content": [
 		{
-			"type": "heading",
+			"type": "customNode",
 			"attrs": {
-				"textAlign": "center",
-				"level": 1
-			},
-			"content": [
-				{
-					"type": "text",
-					"text": "This is a nice blog post"
-				}
-			]
-		},
-		{
-			"type": "paragraph",
-			"attrs": {
-				"textAlign": "center"
-			},
-			"content": [
-				{
-					"type": "text",
-					"text": "By me"
-				}
-			]
+				"tag": "big-header"
+			}
 		},
 		{
 			"type": "paragraph",

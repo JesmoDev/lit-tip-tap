@@ -20,6 +20,7 @@ import { RTEStyles } from './rte-editor.styles.js';
 import BlogList from './custom.node';
 import startDocJson from './startdoc.json';
 import './blog-list';
+import './big-header';
 import './rte-fixed-menu';
 
 @customElement('rte-editor')
@@ -89,7 +90,19 @@ export class RichTextEditorElement extends LitElement {
 		`;
 	}
 
-	static styles = [RTEStyles, Syntax, css``];
+	static styles = [
+		RTEStyles,
+		Syntax,
+		css`
+			rte-fixed-menu {
+				opacity: 0;
+				transition: opacity 0.2s ease-in-out;
+			}
+			#rte:hover rte-fixed-menu {
+				opacity: 1;
+			}
+		`,
+	];
 }
 
 declare global {

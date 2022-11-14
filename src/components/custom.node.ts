@@ -1,4 +1,4 @@
-import { Content, JSONContent, mergeAttributes, Node, nodeInputRule } from '@tiptap/core';
+import { Content, JSONContent, mergeAttributes, Node, nodeInputRule, wrappingInputRule } from '@tiptap/core';
 
 declare module '@tiptap/core' {
 	interface Commands<ReturnType> {
@@ -7,14 +7,10 @@ declare module '@tiptap/core' {
 		};
 	}
 }
-
 export default Node.create({
 	name: 'customNode',
 	draggable: true,
-
-	renderHTML({ HTMLAttributes }) {
-		return [HTMLAttributes.tag, HTMLAttributes];
-	},
+	group: 'block',
 	addAttributes() {
 		return {
 			tag: {
@@ -22,7 +18,10 @@ export default Node.create({
 			},
 		};
 	},
-	group: 'block',
+
+	renderHTML({ HTMLAttributes }) {
+		return [HTMLAttributes.tag, HTMLAttributes];
+	},
 	addCommands() {
 		return {
 			addCustomNode:

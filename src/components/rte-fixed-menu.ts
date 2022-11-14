@@ -228,7 +228,7 @@ export class RTEFixedMenuElement extends LitElement {
 			grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
 			gap: 8px;
 			position: sticky;
-			margin: -128px -128px 90px;
+			margin: -128px -128px 78px;
 			top: -18px;
 			left: 0px;
 			right: 0px;

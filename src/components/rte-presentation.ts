@@ -7,6 +7,7 @@ import { Syntax } from '../global-styles.js';
 import { RTEStyles } from './rte-editor.styles.js';
 import './rte-editor';
 import './blog-list';
+import './big-header';
 import './rte-fixed-menu';
 
 @customElement('rte-presentation')
@@ -45,6 +46,7 @@ export class RTEPresentationElement extends LitElement {
 			content: this.editorJSON,
 			injectCSS: false,
 		});
+		this.editor.setEditable(false);
 	}
 
 	render() {
@@ -81,9 +83,11 @@ export class RTEPresentationElement extends LitElement {
 				position: relative;
 			}
 			#json-overlay {
-				position: absolute;
+				position: relative;
 				padding: 32px;
-				inset: 0;
+				inset: 0px;
+				margin: -128px;
+				width: 127%;
 			}
 			.hide {
 				display: none;

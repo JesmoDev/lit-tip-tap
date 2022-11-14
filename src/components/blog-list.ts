@@ -59,8 +59,7 @@ export class BlogListElement extends LitElement {
 	render() {
 		return html`
 			<div id="top-bar">
-				<slot></slot>
-				<h2>Newest Blogs</h2>
+				<h2>New Blogs</h2>
 				<button @click=${this._refreshBlogs}>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
 						<path fill="none" d="M0 0h24v24H0z" />
